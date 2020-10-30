@@ -14,8 +14,8 @@ fact1:
 fact1_fin:
     movq %rbp, %rsp
     popq %rbp
-    # sal $32, %rdx
-    # orq %rdx, %rax
+    sal $32, %rdx
+    orq %rdx, %rax
     ret
 fact1_if:
     movq %rdi, %rax
@@ -34,7 +34,7 @@ fact2_bucle:
 fact2_fin:
     movq %rbp, %rsp
     popq %rbp
-    # sal $32, %rdx
-    # orq %rdx, %rax
+    sal $32, %rdx
+    orq %rdx, %rax
     ret
     
